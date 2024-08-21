@@ -1,0 +1,211 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    z-index: 1000;
+    position: relative;
+    padding-right: 100px; /* Para garantir que o slogan não sobreponha o conteúdo */
+}
+
+.header-logo {
+    max-height: 60px; /* Ajuste a altura máxima da logo */
+    max-width: auto;  /* Permite que a largura seja ajustada automaticamente */
+    vertical-align: middle; /* Centraliza verticalmente a logo */
+}
+
+
+
+.fancy-font {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #FFD700; /* Uma cor dourada que chama atenção */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.slogan {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFD700; /* Mesma cor dourada para harmonizar */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.main-image {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.main-image img {
+    display: block;
+    margin-top: -5px; /* Para remover qualquer possível margem superior */
+}
+
+.candidate-info h2, 
+.candidate-info p {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+.social-buttons {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.social-buttons img {
+    width: 5px; /* Tamanho ajustado para 5px */
+    height: 5px;
+    margin: 0 5px; /* Espaçamento entre as logos */
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.social-buttons a {
+    color: inherit; /* Herdar a cor do elemento pai */
+    text-decoration: none; /* Remover sublinhado */
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-buttons a:hover {
+    color: inherit; /* Manter a cor ao passar o mouse */
+}
+
+.social-buttons a:focus, .social-buttons a:active {
+    outline: none; /* Remover o contorno ao focar ou clicar */
+}
+
+
+.additional-fields {
+    background-color: #f8f9fa;
+    padding: 30px 0;
+}
+
+.field-box {
+    border: 2px solid #21B574;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.field-box img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.field-box h3 {
+    color: #21B574;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.field-box p {
+    font-weight: 400;
+    color: #333;
+}
+
+.checklist {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: #333;
+}
+
+.checklist li {
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+    font-weight: 400;
+}
+
+.checklist li::before {
+    content: '✔';
+    color: #21B574;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.social-buttons a {
+    display: inline-block;
+    margin-right: 10px; /* Ajuste o espaçamento entre as logos conforme necessário */
+    text-decoration: none; /* Remove qualquer sublinhado nos links */
+}
+
+.social-buttons a::before {
+    content: none; /* Remove qualquer conteúdo gerado antes dos links */
+}
+
+.social-buttons a::after {
+    content: none; /* Remove qualquer conteúdo gerado após os links */
+}
+
+.aroldo-pagan-box {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid #21B574;
+}
+
+.aroldo-pagan-title {
+    background-color: #1f7a8c;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.aroldo-pagan-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.aroldo-pagan-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.aroldo-pagan-list li::before {
+    content: "✔";
+    color: #21B574;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.leadership-footer {
+    background-color: #005F73; /* Cor de fundo azul */
+    color: #ffffff; /* Cor do texto branca */
+    padding: 20px 0;
+    border-top: 4px solid #21B574; /* Borda verde no topo */
+    margin-top: 30px; /* Espaçamento superior para separação do conteúdo */
+}
+
+.leadership-footer .support-image {
+    max-height: 100px; /* Ajuste o tamanho conforme necessário */
+    margin-bottom: 10px; /* Espaço entre a imagem e o texto */
+}
+
+.leadership-footer p {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
